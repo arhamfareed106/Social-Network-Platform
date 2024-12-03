@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                {% if user.is_authenticated %}
+                    <div class="mb-4">
+                        <a href="{% url 'post-create' %}" class="btn btn-primary">Create New Post</a>
+                    </div>
+                {% endif %}
+                {% for post in posts %}
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img src="{{ post.author.profile.avatar.url }}" class="rounded-circle mr-2" width="30" height="30">
+                                    <a href="{% url 'profile' %}" class="text-dark">{{ post.author }}</a>
+                                </div>
+                                <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                            </div>
+                        </div>
+                        {% if post.image %}
+                            <img src="{{ post.image.url }}" class="card-img-top" alt="Post image">
+                        {% endif %}
+                        <div class="card-body">
+                            <p class="card-text">{{ post.content }}</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary like-btn" data-post-id="{{ post.id }}">
+                                        <i class="fas fa-heart"></i> <span class="like-count">{{ post.likes.count }}</span>
+                                    </button>
+                                    <a href="{% url 'post-detail' post.id %}" class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-comment"></i> {{ post.comments.count }}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% empty %}
+                    <div class="alert alert-info">No posts yet!</div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Welcome{% if user.is_authenticated %}, {{ user.username }}{% endif %}!</h5>
+                        <p class="card-text">This is your social network feed. Follow people and interact with their posts!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.querySelectorAll('.like-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const postId = this.dataset.postId;
+            fetch(`/post/${postId}/like/`, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                const likeCount = this.querySelector('.like-count');
+                likeCount.textContent = data.count;
+                if (data.liked) {
+                    this.classList.add('active');
+                } else {
+                    this.classList.remove('active');
+                }
+            });
+        });
+    });
+</script>
+{% endblock %}

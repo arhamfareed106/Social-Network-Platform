@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h3>Your Chat Rooms</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newChatModal">
+                        New Chat
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        {% for room in rooms %}
+                            <a href="{% url 'chat-room' room.id %}" class="list-group-item list-group-item-action">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="mb-1">Chat Room {{ room.id }}</h5>
+                                        <small class="text-muted">
+                                            Participants: 
+                                            {% for participant in room.participants.all %}
+                                                {{ participant.username }}{% if not forloop.last %}, {% endif %}
+                                            {% endfor %}
+                                        </small>
+                                    </div>
+                                    <small class="text-muted">{{ room.created_at|date:"M d, Y" }}</small>
+                                </div>
+                            </a>
+                        {% empty %}
+                            <div class="text-center py-3">
+                                <p class="text-muted">No chat rooms yet. Start a new chat!</p>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- New Chat Modal -->
+<div class="modal fade" id="newChatModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Start New Chat</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Select Users</label>
+                        <select name="participants" class="form-select" multiple required>
+                            {% for user in users %}
+                                {% if user != request.user %}
+                                    <option value="{{ user.id }}">{{ user.username }}</option>
+                                {% endif %}
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Create Chat</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

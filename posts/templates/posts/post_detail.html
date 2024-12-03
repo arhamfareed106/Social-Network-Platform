@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <img src="{{ post.author.profile.avatar.url }}" class="rounded-circle mr-2" width="30" height="30">
+                            <a href="{% url 'profile' %}" class="text-dark">{{ post.author }}</a>
+                        </div>
+                        <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                    </div>
+                </div>
+                {% if post.image %}
+                    <img src="{{ post.image.url }}" class="card-img-top" alt="Post image">
+                {% endif %}
+                <div class="card-body">
+                    <p class="card-text">{{ post.content }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-primary like-btn" data-post-id="{{ post.id }}">
+                                <i class="fas fa-heart"></i> <span class="like-count">{{ post.likes.count }}</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Comments</h5>
+                    {% for comment in post.comments.all %}
+                        <div class="media mb-3">
+                            <img src="{{ comment.author.profile.avatar.url }}" class="rounded-circle mr-2" width="30" height="30">
+                            <div class="media-body">
+                                <h6 class="mt-0">{{ comment.author }} <small class="text-muted">{{ comment.date_posted|date:"F d, Y" }}</small></h6>
+                                {{ comment.content }}
+                            </div>
+                        </div>
+                    {% empty %}
+                        <p class="text-muted">No comments yet.</p>
+                    {% endfor %}
+
+                    {% if user.is_authenticated %}
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <textarea class="form-control" name="content" rows="3" placeholder="Write a comment..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2">Comment</button>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
