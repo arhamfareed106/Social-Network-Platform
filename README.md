@@ -138,6 +138,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ### Contact
 
-Your Name - your.email@example.com
+Arham Fareed - arhamfareed575@gmail.com
 
-Project Link: [https://github.com/yourusername/social-network](https://github.com/yourusername/social-network)
+Project Link: [https://github.com/arhamfareed106/Social-Network-Platform]
