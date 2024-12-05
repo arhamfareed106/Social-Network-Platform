@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-aiv^jus(u9v@!y7ez+v5c1-*@8vu03+*b)fq)zt*%qld&rut=8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -44,9 +44,11 @@ INSTALLED_APPS = [
     'users',
     'posts',
     'chat',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -79,7 +81,21 @@ os.makedirs(BASE_DIR / 'templates', exist_ok=True)
 os.makedirs(BASE_DIR / 'posts' / 'templates' / 'posts', exist_ok=True)
 
 WSGI_APPLICATION = 'social_network.wsgi.application'
+ASGI_APPLICATION = 'social_network.asgi.application'
 
+# Channel Layers
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    }
+}
+
+# CORS settings
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+
+# WebSocket settings
+WEBSOCKET_ACCEPT_ALL = True
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -141,12 +157,38 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
 
-# Channels configuration
-ASGI_APPLICATION = 'social_network.asgi.application'
-CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels.layers.InMemoryChannelLayer'
-    }
+# Logging configuration
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': 'debug.log',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'chat': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
 }
 
 # Default primary key field type

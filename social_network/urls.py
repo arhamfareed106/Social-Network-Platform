@@ -20,10 +20,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
 from users import views as user_views
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('posts.urls')),
+    path('home/', RedirectView.as_view(url='/', permanent=True), name='home-redirect'),
     path('chat/', include('chat.urls')),
     path('register/', user_views.register, name='register'),
     path('profile/', user_views.profile, name='profile'),

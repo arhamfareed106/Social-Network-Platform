@@ -1,0 +1,231 @@
+INFO 2024-12-04 19:57:05,030 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 19:57:05,267 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 19:57:05,801 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 19:57:46,065 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-04 19:57:57,730 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 19:57:57,732 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 19:57:57,886 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 19:57:57,887 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 19:57:57,949 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 19:57:57,950 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+INFO 2024-12-04 19:58:01,679 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-04 19:59:39,723 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 19:59:59,371 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-04 20:00:03,916 basehttp "GET /chat/ HTTP/1.1" 200 9479
+INFO 2024-12-04 20:00:05,909 basehttp "GET /chat/room/1/ HTTP/1.1" 200 17228
+WARNING 2024-12-04 20:00:06,412 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:06,413 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:00:07,489 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:07,490 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+INFO 2024-12-04 20:00:07,493 basehttp - Broken pipe from ('127.0.0.1', 65248)
+WARNING 2024-12-04 20:00:09,532 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:09,534 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:00:13,617 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:13,618 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:00:19,335 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:19,336 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:00:21,674 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:21,678 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:00:29,441 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:00:29,443 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+WARNING 2024-12-04 20:01:12,491 log Not Found: /ws/chat/1/
+WARNING 2024-12-04 20:01:12,506 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3551
+INFO 2024-12-04 20:02:15,993 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:02:16,018 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:02:16,031 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:02:18,798 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:02:19,054 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:02:19,257 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:03:33,913 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:03:33,927 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:03:33,935 autoreload F:\coding\company project\try\social_network\social_network\settings.py changed, reloading.
+INFO 2024-12-04 20:03:36,391 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:03:36,410 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:03:36,922 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:05:21,412 autoreload Watching for file changes with StatReloader
+INFO 2024-12-04 20:19:55,428 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-04 20:20:03,257 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-04 20:22:48,493 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:22:48,967 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 200 101579
+INFO 2024-12-04 20:22:49,002 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 200 502772
+INFO 2024-12-04 20:22:49,651 basehttp "GET /media/default.jpg HTTP/1.1" 200 3997
+INFO 2024-12-04 20:22:49,684 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 200 11968
+WARNING 2024-12-04 20:22:55,372 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:22:55,372 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:29:26,996 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:29:27,471 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:29:27,472 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:29:31,880 basehttp "GET /profile/ HTTP/1.1" 302 0
+INFO 2024-12-04 20:29:32,059 basehttp "GET /login/?next=/profile/ HTTP/1.1" 200 6355
+INFO 2024-12-04 20:32:09,703 basehttp "GET / HTTP/1.1" 200 9842
+INFO 2024-12-04 20:32:10,518 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 304 0
+INFO 2024-12-04 20:32:10,534 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 304 0
+INFO 2024-12-04 20:32:10,623 basehttp "GET /media/default.jpg HTTP/1.1" 304 0
+INFO 2024-12-04 20:32:10,624 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 304 0
+INFO 2024-12-04 20:32:17,828 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:32:18,115 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 200 101579
+INFO 2024-12-04 20:32:18,127 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 200 502772
+INFO 2024-12-04 20:32:19,351 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 200 11968
+INFO 2024-12-04 20:32:19,352 basehttp "GET /media/default.jpg HTTP/1.1" 200 3997
+INFO 2024-12-04 20:34:25,263 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:34:25,688 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:34:25,791 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:34:26,767 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:34:27,408 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:34:27,833 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:34:28,578 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:34:28,579 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:42:31,800 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:42:32,342 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:42:32,343 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:43:47,546 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:43:48,123 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:43:48,124 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:44:14,799 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 20:44:20,642 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:44:21,350 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:44:21,351 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:46:04,365 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 20:46:04,844 log Not Found: /favicon.ico
+WARNING 2024-12-04 20:46:04,845 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 20:46:18,588 basehttp "GET /post/2/ HTTP/1.1" 200 6446
+INFO 2024-12-04 22:21:29,746 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 22:21:30,503 log Not Found: /favicon.ico
+WARNING 2024-12-04 22:21:30,504 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 22:22:09,120 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 22:22:09,559 log Not Found: /favicon.ico
+WARNING 2024-12-04 22:22:09,560 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-04 22:22:14,800 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-04 22:22:42,975 basehttp "GET / HTTP/1.1" 200 9513
+WARNING 2024-12-04 22:22:43,557 log Not Found: /favicon.ico
+WARNING 2024-12-04 22:22:43,560 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+WARNING 2024-12-05 00:06:01,620 log Not Found: /favicon.ico
+WARNING 2024-12-05 00:06:01,628 basehttp "GET /favicon.ico HTTP/1.1" 404 3554
+INFO 2024-12-05 00:06:07,155 basehttp "GET /login/?next=/profile/ HTTP/1.1" 200 6355
+INFO 2024-12-05 00:25:40,540 basehttp "GET / HTTP/1.1" 200 9842
+INFO 2024-12-05 00:25:40,615 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 304 0
+INFO 2024-12-05 00:25:40,639 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 304 0
+INFO 2024-12-05 00:25:40,933 basehttp "GET /media/default.jpg HTTP/1.1" 304 0
+INFO 2024-12-05 00:25:40,935 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 304 0
+INFO 2024-12-05 00:26:49,956 basehttp "GET / HTTP/1.1" 200 9842
+WARNING 2024-12-05 00:26:52,344 log Not Found: /home
+WARNING 2024-12-05 00:26:52,346 basehttp "GET /home HTTP/1.1" 404 3533
+INFO 2024-12-05 15:26:59,071 autoreload Watching for file changes with StatReloader
+INFO 2024-12-05 15:27:05,803 basehttp - Broken pipe from ('127.0.0.1', 58192)
+INFO 2024-12-05 15:27:05,932 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-05 15:27:06,105 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 304 0
+INFO 2024-12-05 15:27:06,105 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 304 0
+INFO 2024-12-05 15:27:06,349 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 304 0
+INFO 2024-12-05 15:27:06,349 basehttp "GET /media/default.jpg HTTP/1.1" 304 0
+WARNING 2024-12-05 15:27:07,309 log Not Found: /favicon.ico
+WARNING 2024-12-05 15:27:07,315 basehttp "GET /favicon.ico HTTP/1.1" 404 3681
+INFO 2024-12-05 15:27:08,401 basehttp "GET /chat/ HTTP/1.1" 200 9479
+INFO 2024-12-05 15:27:10,247 basehttp "GET /chat/room/1/ HTTP/1.1" 200 17228
+WARNING 2024-12-05 15:27:10,385 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:10,392 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+INFO 2024-12-05 15:27:10,415 basehttp - Broken pipe from ('127.0.0.1', 58258)
+WARNING 2024-12-05 15:27:11,436 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:11,438 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:27:13,465 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:13,466 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:27:17,499 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:17,500 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:27:25,567 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:25,570 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:27:27,925 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:27,945 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:27:36,296 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:27:36,303 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:28:02,544 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 15:28:02,550 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+INFO 2024-12-05 15:28:07,216 basehttp "GET /profile/ HTTP/1.1" 200 8034
+INFO 2024-12-05 15:28:12,287 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-05 15:28:14,258 basehttp "GET /post/new/ HTTP/1.1" 200 6108
+INFO 2024-12-05 15:28:16,903 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-05 15:32:22,185 autoreload Watching for file changes with StatReloader
+INFO 2024-12-05 15:32:30,739 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-05 15:32:34,804 basehttp "GET /chat/ HTTP/1.1" 200 9479
+INFO 2024-12-05 15:32:37,097 basehttp "GET /chat/room/3/ HTTP/1.1" 200 17218
+WARNING 2024-12-05 15:32:37,607 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:32:37,617 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+INFO 2024-12-05 15:32:37,620 basehttp - Broken pipe from ('127.0.0.1', 62804)
+WARNING 2024-12-05 15:32:38,641 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:32:38,642 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:32:40,686 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:32:40,690 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+INFO 2024-12-05 15:32:40,693 basehttp - Broken pipe from ('127.0.0.1', 62848)
+WARNING 2024-12-05 15:32:44,758 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:32:44,760 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:32:53,265 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:32:53,267 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 15:33:04,299 log Not Found: /ws/chat/3/
+WARNING 2024-12-05 15:33:04,302 basehttp "GET /ws/chat/3/ HTTP/1.1" 404 3678
+INFO 2024-12-05 17:59:57,326 autoreload Watching for file changes with StatReloader
+INFO 2024-12-05 18:00:05,955 basehttp "GET / HTTP/1.1" 200 9513
+INFO 2024-12-05 18:00:06,378 basehttp "GET /media/post_images/Annotation_2024-01-21_024157.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:00:06,381 basehttp "GET /media/post_images/Screenshot_2024-02-15_123407.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:00:06,432 basehttp "GET /media/default.jpg HTTP/1.1" 304 0
+INFO 2024-12-05 18:00:06,440 basehttp "GET /media/profile_pics/WhatsApp_Image_2024-01-28_at_10.53.31_3af2f879.jpg HTTP/1.1" 304 0
+INFO 2024-12-05 18:00:09,027 basehttp "GET / HTTP/1.1" 200 9848
+INFO 2024-12-05 18:00:15,793 basehttp "GET /post/new/ HTTP/1.1" 200 6108
+INFO 2024-12-05 18:00:35,266 basehttp "POST /post/new/ HTTP/1.1" 302 0
+INFO 2024-12-05 18:00:35,302 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:00:35,527 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 200 41391
+INFO 2024-12-05 18:01:42,957 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:01:43,021 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:01:48,538 basehttp "POST /post/3/like/ HTTP/1.1" 200 27
+INFO 2024-12-05 18:01:50,264 basehttp "GET /post/2/ HTTP/1.1" 200 7157
+INFO 2024-12-05 18:01:54,789 basehttp "POST /post/2/ HTTP/1.1" 200 7157
+INFO 2024-12-05 18:01:56,843 basehttp "GET /profile/ HTTP/1.1" 200 8034
+INFO 2024-12-05 18:02:11,510 basehttp "POST /profile/ HTTP/1.1" 302 0
+INFO 2024-12-05 18:02:11,546 basehttp "GET /profile/ HTTP/1.1" 200 8191
+INFO 2024-12-05 18:02:14,895 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:02:14,937 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:02:39,790 basehttp "GET /chat/ HTTP/1.1" 200 9479
+INFO 2024-12-05 18:02:41,995 basehttp "GET /chat/room/1/ HTTP/1.1" 200 17228
+WARNING 2024-12-05 18:02:42,386 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 18:02:42,387 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 18:02:43,431 log Not Found: /ws/chat/1/
+WARNING 2024-12-05 18:02:43,433 basehttp "GET /ws/chat/1/ HTTP/1.1" 404 3678
+INFO 2024-12-05 18:02:48,584 basehttp "POST /chat/ HTTP/1.1" 302 0
+INFO 2024-12-05 18:02:48,655 basehttp "GET /chat/room/4/ HTTP/1.1" 200 17228
+WARNING 2024-12-05 18:02:48,781 log Not Found: /ws/chat/4/
+WARNING 2024-12-05 18:02:48,782 basehttp "GET /ws/chat/4/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 18:02:49,812 log Not Found: /ws/chat/4/
+WARNING 2024-12-05 18:02:49,814 basehttp "GET /ws/chat/4/ HTTP/1.1" 404 3678
+WARNING 2024-12-05 18:02:51,858 log Not Found: /ws/chat/4/
+WARNING 2024-12-05 18:02:51,861 basehttp "GET /ws/chat/4/ HTTP/1.1" 404 3678
+INFO 2024-12-05 18:02:54,037 basehttp "GET /profile/ HTTP/1.1" 200 8032
+INFO 2024-12-05 18:02:58,980 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:02:59,028 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:03:26,033 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:03:26,108 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:04:08,832 basehttp "GET / HTTP/1.1" 200 11593
+INFO 2024-12-05 18:04:08,881 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+ERROR 2024-12-05 18:04:14,590 log Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/logout.html
+ERROR 2024-12-05 18:04:14,598 basehttp "GET /logout/ HTTP/1.1" 500 84031
+INFO 2024-12-05 18:04:53,421 basehttp "GET / HTTP/1.1" 200 11258
+INFO 2024-12-05 18:04:58,964 basehttp "GET /login/ HTTP/1.1" 200 6355
+INFO 2024-12-05 18:05:17,209 basehttp "POST /login/ HTTP/1.1" 200 6546
+INFO 2024-12-05 18:05:20,865 basehttp "GET /register/ HTTP/1.1" 200 7511
+INFO 2024-12-05 18:05:36,936 basehttp "POST /register/ HTTP/1.1" 302 0
+INFO 2024-12-05 18:05:36,951 basehttp "GET /login/ HTTP/1.1" 200 6531
+INFO 2024-12-05 18:05:45,389 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-12-05 18:05:45,454 basehttp "GET / HTTP/1.1" 200 11586
+INFO 2024-12-05 18:05:45,512 basehttp "GET /media/post_images/Screenshot_2024-02-19_060426.png HTTP/1.1" 304 0
+INFO 2024-12-05 18:05:48,342 basehttp "GET /logout/ HTTP/1.1" 200 4958
